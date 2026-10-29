@@ -48,6 +48,11 @@ the upstream uupd check semantics.
 
 ## Unit test coverage
 
+`tests/unit/test_gnomeos_canary.py` covers GNOME OS identity/session rejection,
+AT-SPI fallback rejection and strict-gate/evidence wiring. The GUI canary lives
+in `tests/gnomeos-canary`; its actual input/readback is verified only in a VM.
+
+
 Run unit tests with `python3 -m pytest tests/unit/ -q`. The `pytest` CI check (`unit-tests.yml`) runs on every PR and merge queue entry.
 
 | File | What it covers |

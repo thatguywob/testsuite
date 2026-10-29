@@ -497,3 +497,4 @@ Load these when you hit the specific topic:
 - [GNOME OS guest lane for the developer extension-validation service and its mandatory gate.](references/gnome-extensions-validation.md)
 - [GNOME OS image provenance (2-week tag expiry), verified guest inventory, and the extensions pre-boot preflight](references/gnomeos-guest-provenance.md)
 - [Which units the fast e2e lane masks, why, and which still need a startup-qualification lane.](references/startup-service-inventory.md)
+- [Native GNOME OS harness and real input/AT-SPI desktop canary](references/gnomeos-desktop-canary.md)
